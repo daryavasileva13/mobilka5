@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Fragment2"
+    >
+
+    <TextView
+        android:id="@+id/text_sections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="@string/text_sections"
+        android:textSize="@dimen/text_size_large"/>
+
+    <TextView
+        android:id="@+id/text_gymnastics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_gymnastics"
+        />
+
+    <TextView
+        android:id="@+id/text_swimming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_swimming"
+        />
+
+    <TextView
+        android:id="@+id/text_acrobatics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_acrobatics"
+        />
+
+    <TextView
+        android:id="@+id/text_yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_yoga"
+        />
+
+    <TextView
+        android:id="@+id/text_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_football"
+        />
+
+    <TextView
+        android:id="@+id/text_boxing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_boxing"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Записаться на тренировку:"
+        />
+
+    <EditText
+        android:id="@+id/section"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:hint="Секция"/>
+
+    <TextView
+        android:id="@+id/text_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Имя"
+        />
+
+    <Button
+        android:id="@+id/button_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Записаться"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_color" />
+    <!--        android:onClick="onButtonClick2"-->
+
+
+    <Button
+        android:id="@+id/button_end2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Назад"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_color"
+        android:onClick="onButtonClick_end2"
+        />
+
+    <ImageView
+        android:id="@+id/image_cup"
+        android:layout_width="150dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/cup_icon_icons_com_52156"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
